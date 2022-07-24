@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            border: 5px outset red;
+        }
+        table, td, th{
+          width: 400px;
+  border: 1px solid black;
+}
+    </style>
+</head>
+<body>
+    <dl><!--defines a description list this is block element-->
+        <dt>manikandan</dt><!--it's terms-->
+
+        <dd>mechanical engg</dd><!--it's definition of terms-->
+
+        <dt>ranjith</dt>
+        <dd>cs engg</dd>
+      </dl>
+      <p>My favorite color is <del>blue</del><!--particular words deleted form doc likes strike tag-->
+        <ins>red</ins><!--(insert)underline the content--></p>
+
+        <details>   <!--insert additional details that the user can open and see it -->
+            <summary>cricket</summary>
+            <p>a game played with a ball and bat by two sides of usually 11 players <br> each on a large field centering upon two wickets each defended by a batsman</p>
+          </details>
+          <dfn title="Kandasamy Tamil manikandan">KTM</dfn> 
+          <!--this is definition element(inline) that is going to be defined with a content-->
+
+          <dialog open>This is an open dialog</dialog>
+           <!--it's define as dialog box-->
+
+          <ul>cricketers <!-- this is block element directory titles used html 4 <ul> is directory unordered list set in order -->
+            <li>virat kholi</li>
+            <li>rohit sharma</li>
+            <li>kl rahul </li>
+          </ul>
+          <div class="flex-container">division</div>
+          <!--this is division element(non-sementic element)then styled with css-->
+        
+          <embed type="image/jpg" src="image/Butterfly.jpg" width="100" height="200"><br>
+            <!--insert  external resource, such as a web page,  picture,  media player-->
+
+            <em> emphasized text</em>     
+            <!--content inside is typically displayed in italic.this is inline element-->
+
+            <form action="/action_page.php">
+                <!--html form for user input,this is a block element.-->
+
+                <fieldset>
+                    <!--draws a box around the related elements,this is a block element-->
+
+                 <legend>BIO:</legend>
+                 <!--it is define as caption for the <fieldset> element.-->
+
+                 <label for="fname">NAME:</label>
+                 <!--(user will read out the label and insert the details,this is inline element  -->
+
+                 <input type="text" id="fname" name="fname"><br><br>
+                 <!--it is define the user can enter data,the <input> element can be displayed in several ways 
+                this is inline element-->
+
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" name="email"><br><br>
+                 <label for="birthday">D O B:</label>
+                 <input type="date" id="birthday" name="birthday"><br><br>
+                 <input type="submit" value="Submit">
+                </fieldset>
+               </form>
+
+               <figure>
+                <!--this is block element,self-contained content like photos diagrams -->
+                <img src="image/Butterfly.jpg" alt="butterfly" style="width: 10%">
+                <figcaption>blue color butterfly</figcaption>
+                <!--define a caption for a <figure> element,this is block elements-->
+               </figure>
+
+               <footer>
+                <!--define aa footer for a document it's contains sitemap,authorship information this is block element-->
+                <p>Author: K.Manikandan<br>
+                <a href="mailto:manidhiyamech07167@gmail.com">manidhiyamech07167@gmail.com</a></p>
+              </footer>
+
+              <iframe src="https://www.youtube.com/watch?v=2fDb7CVBzaI&list=RD2fDb7CVBzaI&start_radio=1"></iframe>
+              <!--insert another document within the current html document like wepsite -->
+
+              <h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+             <!--this is heading tag,<h1> defines the most important heading,<h6> defines the least important heading-->
+
+                <!--<head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.-->
+             <hr>
+             <!--displayed as a horizontal rule that is used to separate content this is block element-->
+             <p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+<p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+             <!--The content inside is typically displayed in italic.-->
+
+             <img src="image/Butterfly.jpg" alt="butterfly" width="100" height="200">
+             <!--this is inline element images are linked to web pages-->
+
+             <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text.</p>
+            <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text.</p>
+            <!--it is define as keyboard sc,the content displayed monospace font,inline element -->
+
+             <ol>
+                <li>html</li>
+                <li>css</li>
+                <li>js</li>
+                <!--<li>define as list item,this tag used inside <ol>,<ul>,<manu> this is block element-->
+             </ol>
+
+             <img src="image/Butterfly.jpg" alt="butterfly" usemap="#workmap" width="200" height="400">
+             <map name="workmap">
+                <area shape="rect" coords="40,50,100,110" alt="small" href="https://in.pinterest.com/pin/974959019305817824/">
+                <!--An image map is an image with clickable areas click on go to the new page and read more about the topic
+                this is inline element-->
+              </map>
+
+                <p>this tag defines text that should be <mark>marked</mark> or <mark>highlighted</mark></p>
+                <label for="disk_html">html usage :</label>
+<meter id="disk_html" value="0.8">80%</meter><br>
+<label for="disk_css">css usage :</label>
+<meter id="disk_css" value="0.6">60%</meter><br>
+                <!--The meter element is used to display a gauge or fractional value-->
+
+                <script>
+                    document.write("Hello World!")
+                    </script>
+                    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+                    <!--A browser with JavaScript disabled will show the text inside the noscript element-->
+
+                    <form action="/action_page.php">
+                        <label for="movies">Choose a movie:</label>
+                        <select name="movies" id="movies">
+                          <!--this is inline element,used to create a drop-down list in a form -->
+                          <optgroup label="ajith movies">
+                            <option value="billa">billa</option>
+                            <option value="red">red</option>
+                          </optgroup><!--The optgroup tag is used to group related options in a drop-down list -->
+
+                          <optgroup label="ravi movies">
+                            <option value="jayam">jayam</option>
+                            <option value="mazhai">mazhai</option>
+                          </optgroup>
+                        </select>
+                        <br><br>
+                        <input type="submit" value="Submit">
+                      </form>
+
+                      <object data="image/SmileyGIFs.gif">
+                        <param name="autoplay" value="true">
+                        <!--Set the "autoplay" parameter to "true", 
+                            so the sound will start playing as soon as the page loads-->
+                        </object><br>
+
+                        <picture>
+                            <source media="(min-width:650px)" srcset="image/Artists.jpg">
+                            <source media="(min-width:500px)" srcset="image/Butterfly.jpg">
+                            <img src="image/images.jpg" alt="butterfly" style="width:auto;">
+                          </picture>
+                          <!--Resize the browser window to load different images-->
+
+            <pre>Cricket is a bat-and-ball game played between two teams 
+                  of eleven players each on a 
+                field at the centre of which is a 22-yard pitch with a 
+                wicket at each end,     each comprising two bails balanced on three stumps</pre> 
+                <!--Text in a pre element(block) is displayed in a fixed-width font, and it preserves both spaces and line breaks-->
+
+                <label for="file">Downloading progress:</label>
+                <progress id="file" value="32" max="100"> 32% </progress>
+            <!--it is define as represents the completion progress of a task-->    
+
+            <p>this tag define as insert <q>short quotation.</q>this is <q>inline element</q></p>
+
+            <ruby>GFG<rt>GeeksforGeeks</rt></ruby>
+              <!--<ruby> this is ruby annotation which is a small text,
+                 attached with the main text to specify the meaning of the main text-->
+                 <!--<rt>describe the explanation of main text on top of the main text-->
+                  <ruby>GFG<rp>GeeksforGeeks</rp></ruby>
+                  <!--the information which need to show when browsers are not supported ruby annotations-->
+
+                  <p>new offer <s>50%</s> 60% discount</p> 
+                  <!--that the text content is no longer correct or accurate. 
+                    This tag is similar but slightly different from <del> tag-->
+
+                      <p><samp>File not found.<br>Press F1 to continue</samp></p>
+                      <!-- this is inline element sample output from a computer program. 
+                        The content inside is displayed in the browser's default monospace font-->
+
+                        <p>This is some normal text.</p>
+          <p><small>This is some smaller text.</small></p>
+          <audio controls>
+            <source src="image/horse.ogv" type="audio/ogg">
+        </audio>        
+        <!-- this tag used to attach multimedia files like audio, video and pictures-->
+
+        <p>My house is <span style="color:blue;font-weight:bold">blue</span> color and my friend house 
+          <span style="color:green;font-weight:bold"> green</span> color.</p>
+          <!--this tag is an inline container,easily styled by CSS-->
+
+          <strong>this is important text</strong>
+
+          <p>This text is<sub>subscript</sub> text.</p>
+          <p>This text is<sup>super script</sup> text.</p>
+          
+          <table>
+            <thead style="text-align: right">
+            <tr>
+              <th>s.no</th>
+              <th>subject</th>
+            </tr>
+          </thead>
+          <tbody style="text-align: left"><!--tbody tag used to group of body content-->
+            <tr>
+              <td>1</td>
+              <td>html</td>
+            </tr>
+          </tbody>
+          <tfoot style="text-align: right">
+            <tr>
+              <td>2</td>
+              <td>css</td>
+            </tr>
+          </tfoot>
+          </table>
+          <!--The <tr> element defines a table row, the <th> element defines a table header,
+             and the <td> element defines a table cell-->
+
+              <form action="/action_page.php">
+              <p><label for="review">how it is:</label></p>
+              <textarea id="review" name="review" rows="4" cols="50">
+              text here</textarea><!--this is inline element,user feedback textarea-->
+
+             <br>
+           <input type="submit" value="Submit">
+             </form>
+             <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+             <p>The content inside is typically <u>displayed</u> with an underline</p>
+             <p>(<var>x</var>+<var>y</var>)<sup>2</sup>=<var>x</var><sup>2</sup>+<var>y</var><sup>2</sup>+2<var>xy</var>
+             <!--defines a variable in programming or in a mathematical expression.
+               The content inside is typically displayed in italic.this is inline element-->
+
+        </body>
+</html>
